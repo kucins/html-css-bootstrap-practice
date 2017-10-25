@@ -1,0 +1,175 @@
+html body{
+  background-color: #0B1937;
+}
+
+.bslk h2 {
+  color: #fff;
+  margin: 40px 0px 40px 0px;
+}
+
+.menu{
+  margin: 40px 0px 40px 0px;
+  list-style: none;
+  float: right;
+}
+
+.menu li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu li a{
+  color: #fff;
+  margin-right: 15px;
+}
+
+.menu li a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.photo1{
+  width: 100%;
+}
+
+.about-us{
+  margin:20px 20px 20px 0px;
+  height: 420px;
+  background-color: #fff;
+}
+
+.about-us h3{
+  font-weight: bold;
+  color:  #1118FF;
+  margin:25px 0px 20px 25px;
+}
+.about-us p{
+  margin:25px 0px 20px 25px;
+}
+
+.about-us button{
+  background-color: #1118FF;
+  color:white;
+  height: 35px;
+  margin:25px 0px 20px 25px;
+  border:none;
+}
+
+.meet-our{
+  width: 467px;
+  height: 200px;
+  margin:20px 0px 20px 0px;
+}
+
+.services{
+  float: left;
+  width: 223px;
+  height: 200px;
+  background-color: #0B253F;
+}
+.services i {
+  color:#E0FFFF;
+  cursor: pointer;
+  margin-left:35%;
+  margin-top:20%;
+}
+
+.services h2{
+  color: #E0FFFF;
+  margin-left: 15%;
+  font-weight: bold;
+}
+
+.contact{
+  float: right;
+  width: 223px;
+  height: 200px;
+  background-color: #E0FFFF;
+ }
+
+.contact i {
+  color:#1A237E;
+  cursor: pointer;
+  margin-left:35%;
+  margin-top:20%;
+}
+
+.contact h2{
+  color: #1A237E;
+  margin-left: 15%;
+  font-weight: bold;
+}
+
+.orange{
+  height: 70px;
+  background-color: #fc771c;
+  margin: 10px 0px 10px 0px;
+}
+
+.orange p{
+  float:left;
+  font-weight: bold;
+  font-size:20px;
+  color:#fff;
+  margin:20px 40px 0px 10px;
+}
+
+.orange button{
+  color:#fff;
+  background-color: #f2580b;
+  border: none;
+  height: 35px;
+  float:right;
+  margin:16px 20px 0px 0px;
+}
+
+.bottom
+{
+  width: 1170px;
+  float: left;
+}
+
+.bottom img{
+  width: 250px;
+  height: 250px;
+  margin: 20px 50px 30px 0px;
+}
+
+.see-more{
+  width: 250px;
+  height: 250px;
+  float: right;
+  margin-top:20px;
+  background:url("images/photo4.png") no-repeat 0 0;
+  background-size: cover;
+  z-index: -1;
+}
+
+.see-more i{
+  color: #fff;
+  margin-left: 40%;
+  margin-top: 30%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.see-more p{
+  font-size: 20px;
+  color:#fff;
+  margin-left: 25%;
+  margin-top: 10%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.front{
+  z-index: 1;
+}
+
+.line{
+  position:fixed;
+  bottom:10px;
+  width: 1170px;
+  height: 4px;
+  background-color: grey;
+}
